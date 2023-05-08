@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./style.css" rel="stylesheet" />
+		<title>Fetch Example</title>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to the Fetch Example!</h1>
+			<p>
+				Welcome! this page is super simple. Very little styling applied on
+				purpose.
+			</p>
+		</header>
+
+		<main>
+			<section id="search_container" class="container">
+				<div class="search">
+					<input
+						type="text"
+						id="search_input"
+						placeholder="Search for city or country"
+					/>
+				</div>
+			</section>
+			<section id="target_container" class="container">
+				<p>
+					Some stuff sould show up in here once the data is recieved from the
+					API
+				</p>
+			</section>
+			<button id="get_data">Get Data</button>
+		</main>
+		<script src="./logic.js"></script>
+	</body>
+</html>
