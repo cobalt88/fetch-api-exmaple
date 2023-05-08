@@ -52,7 +52,7 @@ const displayData = (weatherData) => {
 	//one of the easierst ways to display this day is to use a template literal to construct raw HTML and then apply it as the innerHTML of the target container
 	console.log(weatherData);
 	targetContainer.innerHTML = `
- 
+ Exampole Setup
   <div class="card">
 
     <div class="card-body">
